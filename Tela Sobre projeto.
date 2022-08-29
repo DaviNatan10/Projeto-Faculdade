@@ -1,0 +1,49 @@
+///////////////////////////////////////////////////////////////////////////////
+///             Universidade Federal do Rio Grande do Norte                 ///
+///                 Centro de Ensino Superior do Seridó                     ///
+///               Departamento de Computação e Tecnologia                   ///
+///                  Disciplina  -- Programação                      ///
+///                  Projeto SIG-PET                     ///
+///                  Desenvolvido Por Davi Natan | Felipe Silva                 ///
+///////////////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+
+/////
+// Assinatura das funções
+void telaPrincipal(void);
+void telaSobre(void);
+
+/////
+// Programa principal
+int main(void) {
+    telaSobre();
+    telaPrincipal();
+    return 0;
+}
+
+void telaSobre(void){
+  
+    
+ 
+
+  printf("As Clinicas para Atendimento a Pequenos Animais são cada vez mais populares. O Presente projeto tem como objetivo propor um Programa de computador que implementa funcionalidades básicas relacionadas ao agendamento de consultas de Pequenos Animais.\n");
+   
+    
+  }
+
+
+void telaPrincipal(void) {
+    printf("\n");
+    printf("Inicio do Programa.\n");
+    
+    printf("            = = = = = SIG-PET = = = = =                \n");
+    
+    printf("            1. Cadastro De Usuario                                              \n");
+    printf("            2. (Sera Postado em Breve.)                                         \n");
+    printf("            3. (Sera Postado em Breve.)                                             \n");
+    printf("            4. (Sera Postado em Breve.)                                         \n");
+   
+   
+    
+    printf("\n");
+}
